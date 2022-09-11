@@ -1,0 +1,16 @@
+Source: nitrux-repositories-config
+Section: misc
+Priority: required
+Maintainer: Stephane Tsana <stephanetse@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://kaytime.github.io
+
+
+Package: nitrux-repositories-config
+Conflicts: nitrux-repository-settings
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Package to update APT sources in Nitrux.
+ This package will update APT sources.
+
