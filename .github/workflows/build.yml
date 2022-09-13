@@ -5,6 +5,7 @@ on:
     branches:
       - "stable"
       - "unstable"
+      - "testing"
     paths-ignore:
       - "README.md"
 

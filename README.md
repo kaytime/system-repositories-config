@@ -1,4 +1,6 @@
-# Kaytim Repository Settings [![PackageCloud.](https://github.com/kaytime/system-repositories-config/actions/workflows/build.yml/badge.svg)](https://github.com/kaytime/system-repositories-config/actions/workflows/build.yml)
+# Kaytim Repository Settings v0.1.0-alpha
+
+[![PackageCloud.](https://github.com/kaytime/system-repositories-config/actions/workflows/build.yml/badge.svg)](https://github.com/kaytime/system-repositories-config/actions/workflows/build.yml)
 
 Custom settings for APT.
 
