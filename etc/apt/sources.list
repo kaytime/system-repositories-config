@@ -7,5 +7,5 @@
 # Kaytime Repos #
 ################
 
-deb [arch=amd64 signed-by=/usr/share/keyrings/kaytime-repo.gpg] https://packagecloud.io/kaytime/repo/debian/ trixie main
+deb [arch=amd64 signed-by=/usr/share/keyrings/kaytime-stable.gpg] https://packagecloud.io/kaytime/stable/debian/ trixie main
 deb [arch=amd64 signed-by=/usr/share/keyrings/kaytime-compat.gpg] https://packagecloud.io/kaytime/compat/debian/ trixie main

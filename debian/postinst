@@ -733,17 +733,17 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 	1118213C \
 	E734E623
 
-curl -L https://packagecloud.io/kaytime/repo/gpgkey | apt-key add
+curl -L https://packagecloud.io/kaytime/stable/gpgkey | apt-key add
 curl -L https://packagecloud.io/kaytime/compat/gpgkey | apt-key add
 
 rm -r \
-	/usr/share/keyrings/kaytime-repo.gpg \
+	/usr/share/keyrings/kaytime-stable.gpg \
 	/usr/share/keyrings/kaytime-compat.gpg \
 	/usr/share/keyrings/neon-archive.gpg \
 	/usr/share/keyrings/gpu-ppa.gpg \
 	/usr/share/keyrings/xanmod-repo.gpg
 
-apt-key export 86A634D7 | gpg --dearmour -o /usr/share/keyrings/kaytime-repo.gpg
+apt-key export EB1BEB0D | gpg --dearmour -o /usr/share/keyrings/kaytime-stable.gpg
 apt-key export 712260DE | gpg --dearmour -o /usr/share/keyrings/kaytime-compat.gpg
 apt-key export 55751E5D | gpg --dearmour -o /usr/share/keyrings/neon-archive.gpg
 apt-key export 1118213C | gpg --dearmour -o /usr/share/keyrings/gpu-ppa.gpg

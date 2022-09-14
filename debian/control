@@ -11,6 +11,6 @@ Package: system-repositories-config
 Conflicts: system-repository-settings
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Package to update APT sources in Nitrux.
+Description: Package to update APT sources in Kaytime.
  This package will update APT sources.
 
