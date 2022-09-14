@@ -9,10 +9,7 @@ apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 mk-build-deps -i -t "apt-get --yes" -r
 
 ### Build Deb
+mkdir source
+mv ./* source/ # Hack for debuild
+cd source
 debuild -b -uc -us
-
-ls -a
-
-### Move Deb to current directory because debuild decided
-### that it was a GREAT IDEA TO PUT THE FILE ONE LEVEL ABOVE
-mv ../*.deb .
