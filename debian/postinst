@@ -738,6 +738,7 @@ curl -L https://packagecloud.io/kaytime/unstable/gpgkey | apt-key add
 curl -L https://packagecloud.io/kaytime/testing/gpgkey | apt-key add
 curl -L https://packagecloud.io/kaytime/compat/gpgkey | apt-key add
 
+
 rm -r \
 	/usr/share/keyrings/kaytime-stable.gpg \
 	/usr/share/keyrings/kaytime-unstable.gpg \
@@ -746,6 +747,7 @@ rm -r \
 	/usr/share/keyrings/neon-archive.gpg \
 	/usr/share/keyrings/gpu-ppa.gpg \
 	/usr/share/keyrings/xanmod-repo.gpg
+
 
 apt-key export 4A55608C12F2450A | gpg --dearmour -o /usr/share/keyrings/kaytime-stable.gpg
 apt-key export 7007CC7088E6C947 | gpg --dearmour -o /usr/share/keyrings/kaytime-unstable.gpg
