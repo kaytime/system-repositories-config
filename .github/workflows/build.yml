@@ -35,4 +35,4 @@ jobs:
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
         run: |
-          package_cloud push kaytime/${{GITHUB_REF_NAME}}/debian/trixie $(pwd)/*.deb
+          package_cloud push kaytime/${{github.ref_name}}/debian/trixie $(pwd)/*.deb
