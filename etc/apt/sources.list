@@ -8,4 +8,6 @@
 ################
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/kaytime-stable.gpg] https://packagecloud.io/kaytime/stable/debian/ trixie main
+deb [arch=amd64 signed-by=/usr/share/keyrings/kaytime-unstable.gpg] https://packagecloud.io/kaytime/unstable/debian/ trixie main
+deb [arch=amd64 signed-by=/usr/share/keyrings/kaytime-testing.gpg] https://packagecloud.io/kaytime/testing/debian/ trixie main
 deb [arch=amd64 signed-by=/usr/share/keyrings/kaytime-compat.gpg] https://packagecloud.io/kaytime/compat/debian/ trixie main
