@@ -13,8 +13,6 @@ chmod -x "debian/install"
 ### Build Deb
 debuild -b -uc -us
 
-ls -a
-
 ### Move Deb to current directory because debuild decided
 ### that it was a GREAT IDEA TO PUT THE FILE ONE LEVEL ABOVE
 mv ../*.deb .
