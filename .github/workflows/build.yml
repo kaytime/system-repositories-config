@@ -25,7 +25,15 @@ jobs:
 
       - name: Build.
         run: |
+          chmod +x gh-build.sh
           sudo ./gh-build.sh
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.event.commits[0].message }}
+          files: |
+            *.deb
 
       - name: Push package.
         env:
