@@ -1,4 +1,4 @@
-Source: nitrux-repositories-config
+Source: system-repositories-config
 Section: misc
 Priority: required
 Maintainer: Stephane Tsana <stephanetse@gmail.com>
@@ -7,8 +7,8 @@ Standards-Version: 3.9.6
 Homepage: https://kaytime.github.io
 
 
-Package: nitrux-repositories-config
-Conflicts: nitrux-repository-settings
+Package: system-repositories-config
+Conflicts: system-repository-settings
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Package to update APT sources in Nitrux.
